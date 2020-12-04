@@ -1,0 +1,46 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+	background: black;
+}
+
+canvas {
+  display: block;
+}
+
+#container {
+  display: grid;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  mix-blend-mode: multiply;
+  background: black;
+  pointer-events: none;
+}
+
+.window {
+	background-size: contain;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	/*background-image: none !important;*/
+	/*background-color: white;*/
+}
+
+#containerColor {
+  display: grid;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#containerColor div {
+  background-color: white;
+}
